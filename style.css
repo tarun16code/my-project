@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+#btn {
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#screen {
+    border: 2px solid red;
+    height: 300px;
+    width: 250px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#load {
+    height: 5px;
+    background-color: white;
+    /*animation-name: ani;*/
+    animation-duration: 3s;
+}
+
+@keyframes ani {
+    0% {
+        background-color: red;
+        width: 0%;
+    }
+    40% {
+        background-color: rgb(250, 85, 100);
+        width: 40%;
+    }
+    70% {
+        background-color: rgb(277, 217, 100);
+        width: 70%;
+    }
+    100% {
+        background-color: rgb(235, 217, 100);
+        width: 100%;
+    }
+}
